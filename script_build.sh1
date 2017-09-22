@@ -2,7 +2,7 @@
 
 # Clone this script in your ROM Repo using following commands.
 # cd rom_repo
-# curl https://raw.githubusercontent.com/Rpingat/legacy_script/master/script_build.sh > script_build.sh
+# curl https://raw.githubusercontent.com/Rpingat/legacy_script/master/script_build.sh1 > script_build.sh
 
 # ccache
 export USE_CCACHE=1
