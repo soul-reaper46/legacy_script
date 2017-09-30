@@ -1,5 +1,7 @@
 #! /bin/bash
 
+#curl https://raw.githubusercontent.com/Rpingat/legacy_script/master/script_build.sh2 > script_build.sh
+
 export USE_CCACHE=1
 export CCACHE_DIR=/home/tacoscanterbury
 prebuilts/misc/linux-x86/ccache/ccache -M 50G
