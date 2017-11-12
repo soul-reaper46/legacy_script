@@ -1,6 +1,6 @@
 #! /bin/bash
 
-#curl https://raw.githubusercontent.com/Rpingat/legacy_script/master/script_build.sh2 > script_build.sh
+#curl https://raw.githubusercontent.com/Rpingat/legacy_script/master/aim.sh > script_build.sh
 
 export USE_CCACHE=1
 export CCACHE_DIR=/home/ccache/ravi
