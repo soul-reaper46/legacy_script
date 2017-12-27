@@ -6,15 +6,15 @@
 
 # ccache
 export USE_CCACHE=1
-export CCACHE_DIR=/home/tacoscanterbury/ccache
+export CCACHE_DIR=/home/ccache/ravi
 prebuilts/misc/linux-x86/ccache/ccache -M 50G
-export KBUILD_BUILD_USER=
-export KBUILD_BUILD_HOST=StayXtreme
+export KBUILD_BUILD_USER=SeekNDstroy
+export KBUILD_BUILD_HOST=ThunderServer
 
 # clean
 make clean && make clobber
 
 # build
 . build/envsetup.sh
-lunch cm_$device-userdebug
+lunch nitrogen_lettuc-userdebug
 make bacon -j8
