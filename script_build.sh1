@@ -16,5 +16,5 @@ make clean && make clobber
 
 # build
 . build/envsetup.sh
-lunch nitrogen_lettuc-userdebug
+lunch nitrogen_lettuce-userdebug
 make bacon -j8
