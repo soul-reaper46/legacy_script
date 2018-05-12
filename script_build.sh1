@@ -6,9 +6,9 @@
 
 # ccache
 export USE_CCACHE=1
-export CCACHE_DIR=/home/ccache/ravi
+export CCACHE_DIR=/home/vjspranav/roms/ccache
 prebuilts/misc/linux-x86/ccache/ccache -M 50G
-export KBUILD_BUILD_USER=SeekNDstroy
+export KBUILD_BUILD_USER=
 export KBUILD_BUILD_HOST=ThunderServer
 
 # clean
@@ -16,5 +16,5 @@ make clean && make clobber
 
 # build
 . build/envsetup.sh
-lunch nitrogen_lettuce-userdebug
-make bacon -j8
+lunch aosp_mido-userdebug
+make bacon -j6
