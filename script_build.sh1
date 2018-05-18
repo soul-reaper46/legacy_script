@@ -3,10 +3,11 @@
 # Clone this script in your ROM Repo using following commands.
 # cd rom_repo
 # curl https://raw.githubusercontent.com/Rpingat/legacy_script/master/script_build.sh1 > script_build.sh
+username=yourname
 
 # ccache
 export USE_CCACHE=1
-export CCACHE_DIR=/home/vjspranav/roms/ccache
+export CCACHE_DIR=/home/$username/roms/ccache
 prebuilts/misc/linux-x86/ccache/ccache -M 50G
 export KBUILD_BUILD_USER=
 export KBUILD_BUILD_HOST=ThunderServer
