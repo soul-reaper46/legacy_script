@@ -19,16 +19,12 @@ export TERM=xterm
 export USE_CCACHE=1
 export CCACHE_DIR=/home/$username/ccache
 prebuilts/misc/linux-x86/ccache/ccache -M 100G
-export KBUILD_BUILD_USER=SeekNDstroy
+export KBUILD_BUILD_USER=
 export KBUILD_BUILD_HOST=ThunderServer
 
 # clean
-if [ "$make_clean" = "yes" ];
-then
 make clean && make clobber
-wait
 echo -e ${cya}"OUT dir from your repo deleted"${txtrst};
-fi
 
 # build
 . build/envsetup.sh
